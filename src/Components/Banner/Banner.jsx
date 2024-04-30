@@ -1,5 +1,9 @@
 import React from 'react'
 import Nav from '../Nav/Nav';
+import Location from '../Location/Location';
+import Calender from '../Calender/Calender';
+import Geusts from '../Geusts/Geusts';
+import Book from '../Book/Book';
 function Banner() {
   return (
     <>
@@ -10,10 +14,18 @@ function Banner() {
      </div>
      <p className='text-white text-lg flex justify-center  items-center pt-3'>pearl islnad hotel & resort</p>
      <div className='h-[80px] w-[80%] ml-24   flex mt-6 rounded   bg-white  '>
-      <div className='h-[80px] w-[30%] border border-red-600'></div>
-      <div className='h-[80px] w-[25%] border border-green-500'></div>
-      <div className='h-[80px] w-[30%] border border-yellow-500'></div>
-      <div className='h-[80px] w-[15%] border border-blue-600 bg-red-700 '></div>
+      <div className='h-[80px] w-[30%] border border-red-600'>
+        <Location/>
+      </div>
+      <div className='h-[80px] w-[25%] border border-green-500'>
+        <Calender/>
+      </div>
+      <div className='h-[80px] w-[30%] border border-yellow-500'>
+        <Geusts/>
+      </div>
+      <button className='h-[80px] w-[15%] bg-red-600 rounded-sm'>
+        <Book/>
+      </button>
       
       
 
