@@ -43,8 +43,8 @@ function Location() {
   return (
     <>
       <div>
-        <i className="fa-solid fa-location-dot"></i>
-        <p className='px-12'>Location</p>
+        
+        <p className='px-12'> <i className="fa-solid fa-location-dot"></i>&nbsp;Location</p>
         <div className='px-9'>
         <select className='bg-slate-900 rounded w-[70%] text-white'>
           {states.map((state, index) => (
