@@ -3,7 +3,10 @@ import React from 'react'
 function Book() {
   return (
     <>
-    <h1 className='font-extrabold text-white'>BOOK NOW</h1>
+      <div className='w-full'>
+        <button class="text-white font-bold text-center  hover:bg-orange-800 rounded" type="submit">BOOK NOW</button>
+
+      </div>
     </>
   )
 }

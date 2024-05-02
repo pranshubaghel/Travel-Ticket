@@ -21,7 +21,7 @@ function Calendar() {
 
   return (
     <>
-      <div>
+      <div className='w-full border px-10'>
         <i className="fa-solid fa-calendar-days"></i>
         <h1 className='text-black'>From-To</h1>
         <div className='flex '>

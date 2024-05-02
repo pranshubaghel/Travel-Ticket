@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 function Guests() {
   const [adults, setAdults] = useState(0);
   const [children, setChildren] = useState(0);
-  const [showDropdown, setShowDropdown] = useState(false);
+  const [showDropdown, setShowDropdown] = useState();
 
   const incrementAdults = () => {
     setAdults(adults + 1);
@@ -36,7 +36,7 @@ function Guests() {
   };
 
   return (
-    <div className="mt-3"onClick={handleClickOutside}>
+    <div className=" pt-4 lg:mt-3 w-full px-10"onClick={handleClickOutside}>
       <h1>
         <i className="fa-regular fa-user"></i> &nbsp;Guests
       </h1>
@@ -61,3 +61,5 @@ function Guests() {
 }
 
 export default Guests;
+
+

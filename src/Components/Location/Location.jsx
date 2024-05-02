@@ -42,11 +42,11 @@ function Location() {
 
   return (
     <>
-      <div>
+      <div className='w-full px-10 py-2'>
         
-        <p className='px-12'> <i className="fa-solid fa-location-dot"></i>&nbsp;Location</p>
-        <div className='px-9'>
-        <select className='bg-slate-900 rounded w-[70%] text-white'>
+        <p className='lg:px-12'> <i className="fa-solid fa-location-dot"></i>&nbsp;Location</p>
+        <div className='lg:px-9'>
+        <select className='bg-slate-900 rounded h-9 w-full text-white'>
           {states.map((state, index) => (
             <option key={index} value={state.code}>{state.name}</option>
           ))}
